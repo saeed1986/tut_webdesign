@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* header */
+
+.header {
+    background-color: rgb(26, 78, 80);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headline-one {
+    color: rgb(241, 239, 248);
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+/*article*/
+
+.header2 .headline-two {
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    background-color: aqua;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.headline-two::after {
+    content: "TOP";
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
